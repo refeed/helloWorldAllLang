@@ -1,0 +1,13 @@
+// Hello World in X++ (Microsoft Axapta)
+
+class classHelloWorld
+{
+}
+
+static void main(args Args)
+{
+    dialog   dialog;
+    dialog = new dialog();
+    dialog.addText("Hello DSC UGM!");
+    dialog.run();
+}
